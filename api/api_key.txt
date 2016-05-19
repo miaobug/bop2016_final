@@ -1,0 +1,76 @@
+# 省着用噢!
+Bing Spell Check – Preview	5,000 transactions per month, 7 per minute.
+Key 1: f1ef6e1d40604ddcb4b29ddfe70019dc
+Key 2: d119af6d4f9c48a7adf47e63840c162f
+0 of 5000 calls used before
+
+Bing Autosuggest – Preview	10,000 transactions per month, 10 per second.
+Key 1: 6baef23768db484691b1e9ea07cf207f
+Key 2: db6bbffde153463caaa80a015d9bf5ff
+0 of 10000 calls used before
+
+Bing Search – Preview	Across all Bing Search APIs (Web, Image, Video, News): 1,000 transactions per month, 5 per second.
+Key 1: 71514c32f5d84e13aea4ce9fcc3f9ae7
+Key 2: f495ac7fe4f04a04a63065ed40fdd231
+0 of 1000 calls used before
+
+Academic - Preview	10,000 transactions per month, 3 per second for interpret, 1 per second for evaluate, 6 per minute for calcHistogram.
+Key 1: c3d253ba24ba4c10bacdfc73d6dd9948
+Key 2: 11861a6557024efdb37266eb3ed7c344
+0 of 10000 calls used before
+
+Computer Vision - Preview	5,000 transactions per month, 20 per minute.
+Key 1: 94637e8534e14720bc3f4808527e8951
+Key 2: 0d9d9c20fbc940f78ad6c7ca701f17f3
+0 of 5000 calls used before
+
+Emotion - Preview	30,000 transactions per month, 20 per minute.
+Key 1: 2b794b1b8df64797819ca133c1724583
+Key 2: 9c9314034dae483282b156584c79af22
+0 of 30000 calls used before
+
+Entity Linking - Preview	1000 transactions per day, 10KB text limit.
+Key 1: 0d497cb05dcf41a687363b0559fa6512
+Key 2: 5b1d92f9bf434e5b9babb444e87094f7
+0 of 1000 calls used before
+
+Face - Preview	30,000 transactions per month, 20 per minute.
+Key 1: ed496164086047439ddbe7c54e5920a0
+Key 2: 10abdb1afbe8497d844c9d609a1c4354
+0 of 30000 calls used before
+
+Video - Preview	getResult: 1,200 transactions per month, 1 per minute. getOperation: 12,000 transactions per month, 5 per minute Each feature has 100MB file limit; 300 transactions per month per feature, 1 per minute.
+Key 1: d127156a1b4c4462bab8a5717ca40307
+Key 2: 678703593dfc413e88885f738542abf8
+0 of 14400 calls used before
+
+Speech - Preview	5,000 transactions per month, 20 per minute for each feature for a total of 60 per minute.
+Key 1: 72e43cf0618b4fbca542fffaa0326574
+Key 2: a07d0d67df8643db995805bc4921e401
+0 of 5000 calls used before
+
+WebLM - Preview	100,000 transactions per month, 1,000 per minute.
+Key 1: e03e59023aa242af8f16887d8996bed7
+Key 2: 893e62f10bcf4671abb12cb9048263a6
+0 of 100000 calls used before
+
+Speaker Recognition - Preview	10,000 transactions per month, 20 per minute.
+Key 1: e2d3a13d963e4e59aba0fb42f7c90a5d
+Key 2: a1df21ac48794faf9f60607784d2f498
+0 of 10000 calls used before
+
+Linguistic Analysis - Preview	5,000 transactions per month, 2 per second.
+Key 1: 50afa103e4024f7ebb1e325de0e713e3
+Key 2: 294ba8d4373a41c3b94d0df0e498f84d
+0 of 5000 calls used before
+
+Recommendations - Preview	10,000 transactions per month.
+Key 1: 6543abe8072a44eebce6879f670b6d17
+Key 2: 9e50d8a719de4c4694043726d476561f
+0 of 10000 calls used before
+
+Text Analytics - Preview	5,000 transactions per month.
+Key 1: be499c4ec7ce4db69a0dce8e2592fd5a
+Key 2: 6fdb0ff6082c4904be8fbc02fcf51303
+0 of 5000 calls used before
+
