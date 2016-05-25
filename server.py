@@ -1,5 +1,4 @@
 #-*- coding:utf-8 -*-
-import Image
 import json
 dict = {u'\u4e00' : 1, u'\u4e8c' : 2, u'\u4e09' : 3, u'\u56db' :4, u'\u4e94' :5,u'\u516d' :6,u'\u4e03' :7,u'\u516b' :8,u'\u4e5d' :9,u'\u5341' :10}
 
@@ -78,8 +77,6 @@ def findTag(dateName):
 	return picList
 
 def parseJson(s):
-	#f = file('test.json')---------for test
-	#s = json.load(f)-----------for test
 	res = s["intents"][0]["intent"]
 
 	if res == "show_last":
@@ -127,6 +124,7 @@ def parseJson(s):
 				pass
 		print imglist
 	#elif res == "filter_by_trip":
+		#I have no way to figure out how it works
 
 	elif res == "filter_by_tag":
 		imglist = []
