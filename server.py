@@ -64,6 +64,19 @@ def addTag(imgId,entity):
 			i["tag"]=entity
 	json.dump(s, open('photos.json', 'w'))
 
+def findTag(dateName):
+	picList = []
+	f = file('photos.json')
+	s = json.load(f)
+	try:
+		for i in s:
+			if dateName in i["tag"]:
+				picList.append(i["photoId"])
+	except:
+		pass
+	#print picList
+	return picList
+
 def parseJson(s):
 	#f = file('test.json')---------for test
 	#s = json.load(f)-----------for test
@@ -120,7 +133,7 @@ def parseJson(s):
 		for ent in s["entities"]:
 			if ent["type"] == "tag":
 				imglist = findTag(ent["entity"])
-
+		print imglist#发送指令到浏览器
 	elif res == "remove_filter":
 		print "remove_filter"#发送指令到浏览器
 	elif res == "add_tag":
