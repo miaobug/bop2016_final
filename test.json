@@ -1,0 +1,78 @@
+{
+  "query": "找到婚礼的图片",
+  "intents": [
+    {
+      "intent": "filter_by_tag",
+      "score": 0.8492797
+    },
+    {
+      "intent": "filter_by_date_location",
+      "score": 0.0232662726
+    },
+    {
+      "intent": "add_tag",
+      "score": 0.00341008883
+    },
+    {
+      "intent": "show_one_per_page",
+      "score": 0.00223773927
+    },
+    {
+      "intent": "remove_filter",
+      "score": 0.00108889712
+    },
+    {
+      "intent": "filter_by_trip",
+      "score": 0.000531943
+    },
+    {
+      "intent": "None",
+      "score": 0.0003405245
+    },
+    {
+      "intent": "stop_auto_show",
+      "score": 0.000143403289
+    },
+    {
+      "intent": "show_first",
+      "score": 0.000112495858
+    },
+    {
+      "intent": "show_next",
+      "score": 3.778777E-05
+    },
+    {
+      "intent": "start_auto_show",
+      "score": 2.39486435E-05
+    },
+    {
+      "intent": "show_last",
+      "score": 2.04713542E-05
+    },
+    {
+      "intent": "show_n_per_page",
+      "score": 1.51939812E-05
+    },
+    {
+      "intent": "show_previous",
+      "score": 3.32535683E-06
+    },
+    {
+      "intent": "rotate",
+      "score": 3.326647E-09
+    },
+    {
+      "intent": "show_n_by_m_per_page",
+      "score": 2.04274757E-11
+    }
+  ],
+  "entities": [
+    {
+      "entity": "haha",
+      "type": "tag",
+      "startIndex": 2,
+      "endIndex": 3,
+      "score": 0.630710363
+    }
+  ]
+}
