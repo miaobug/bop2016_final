@@ -57,9 +57,9 @@ def parseJson(s):
 	elif(res == "add_tag")
 
 	elif(res == "rotate")
-		if(s["entities"][1]["entity"] == "右" || s["entities"][1]["entity"] == "顺时针")
+		if(s["entities"][1]["entity"] == "右" or s["entities"][1]["entity"] == "顺时针")
 			#发送指令到浏览器
-		elif(s["entities"][1]["entity"] == "左" || s["entities"][1]["entity"] == "逆时针")
+		elif(s["entities"][1]["entity"] == "左" or s["entities"][1]["entity"] == "逆时针")
 			#发送指令到浏览器
 	elif(res == "stop_auto_show")
 		#发送指令到浏览器
